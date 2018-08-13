@@ -5,7 +5,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Readme.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Readme.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentCache.Microsoft.Extensions.Caching.Redis" Version="4.0.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection.Redis" Version="0.4.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
   </ItemGroup>
 
   <ItemGroup>
